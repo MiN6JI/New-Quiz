@@ -7,7 +7,12 @@ const routes = [
       { path: '', component: () => import('pages/IndexPage.vue') }
     ]
   },
-
+  
+  {
+    path: '/NewQuiz',
+    component: () => import('pages/New_Quiz.vue')
+  },
+      
   {
     path: '/quiz',
     component: () => import('pages/The_Quiz_app.vue')
