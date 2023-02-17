@@ -6,10 +6,13 @@
   "author": "MINGJI <106254888+MiN6JI@users.noreply.github.com>",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "dev": "quasar dev",
     "build": "quasar build",
     "build:pwa": "quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android --ide",
+=======
+>>>>>>> a2f5c126f51b667d6a19374d50a109cf35852c8a
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0"
@@ -34,4 +37,8 @@
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a2f5c126f51b667d6a19374d50a109cf35852c8a
